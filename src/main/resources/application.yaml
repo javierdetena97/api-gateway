@@ -1,3 +1,6 @@
+server:
+  port: 8082
+
 spring:
   cloud:
     gateway:
@@ -21,3 +24,6 @@ spring:
         show-details: always
       gateway:
         enabled: true
+
+jwt:
+  secret: kdosdireladskvsadfkeialwjafkldoepfwfndsnvldsfuwoekmlsdflsffdjskiefaejasdfefasfdvadeavdcvadsfeafgssgadfafadsfeafdaadfe
