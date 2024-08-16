@@ -8,7 +8,7 @@ spring:
         - id: auth-route
           uri: http://localhost:8081
           predicates:
-            -Path=/v1/auth/**
+            - Path=/v1/auth/**
         - id: game-route
           uri: http://localhost:8080
           predicates:
